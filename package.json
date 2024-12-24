@@ -1,0 +1,36 @@
+{
+  "name": "v-lib",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/v-lib.umd.cjs",
+  "module": "./dist/v-lib.js",
+  "types": "./dist/main.d.ts",
+  "exports": {
+    ".": {
+		"types": "./dist/main.d.ts",
+      "require": "./dist/v-lib.umd.cjs",
+      "import": "./dist/v-lib.js"
+    },
+    "./v-lib.css": "./dist/v-lib.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --emitDeclarationOnly && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.3",
+    "vue-tsc": "^2.1.10"
+  }
+}
