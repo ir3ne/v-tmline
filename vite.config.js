@@ -7,9 +7,9 @@ export default defineConfig({
     build: {
         lib: {
             entry: resolve(__dirname, 'lib/main.ts'),
-            name: 'VLib',
+            name: 'VTimeline',
             // the proper extensions will be added
-            fileName: 'v-lib'
+            fileName: 'v-timeline'
         },
         rollupOptions: {
             // make sure to externalize deps that shouldn't be bundled

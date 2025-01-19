@@ -1,21 +1,21 @@
 {
-	"name": "v-lib",
+	"name": "v-timeline",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
 	"files": [
 		"dist"
 	],
-	"main": "./dist/v-lib.umd.cjs",
-	"module": "./dist/v-lib.js",
+	"main": "./dist/v-timeline.umd.cjs",
+	"module": "./dist/v-timeline.js",
 	"types": "./dist/main.d.ts",
 	"exports": {
 		".": {
 			"types": "./dist/main.d.ts",
-			"require": "./dist/v-lib.umd.cjs",
-			"import": "./dist/v-lib.js"
+			"require": "./dist/v-timeline.umd.cjs",
+			"import": "./dist/v-timeline.js"
 		},
-		"./style.css": "./dist/v-lib.css"
+		"./style.css": "./dist/v-timeline.css"
 	},
 	"scripts": {
 		"dev": "vite",
