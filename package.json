@@ -18,7 +18,7 @@
 		"type": "git",
 		"url": "https://github.com/ir3ne/v-timeline.git"
 	},
-	"issues": {
+	"bugs": {
 		"url": "https://github.com/ir3ne/v-timeline/issues"
 	},
 	"author": "ir3ne <irene.tomaini@gmail.com>",
