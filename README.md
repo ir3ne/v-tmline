@@ -1,11 +1,11 @@
 # Vue Timeline Component
 
-A flexible and customizable timeline component for Vue 3 applications. Display a vertical timeline of events with customizable styles, alignments, and content.
+A flexible and customizable timeline component for Vue 3 applications. Display a vertical timeline of events with customizable styles, alignments, and content. For both light and dark themes.
 
 ## Installation
 
 ```bash
-npm install v-timeline
+npm install v-tmline
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ Import and use the component in your Vue application:
 
 ```vue
 <script setup>
-import { Timeline } from 'v-timeline'
+import { Timeline } from 'v-tmline'
 
 const timelineItems = [
   { id: 1, label: 'First Event' },
@@ -127,7 +127,7 @@ The component uses the following CSS classes that you can override:
 
 ```vue
 <script setup>
-import { Timeline } from 'v-timeline'
+import { Timeline } from 'v-tmline'
 
 const timelineItems = [
   {
