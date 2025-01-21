@@ -2,7 +2,7 @@
 
 A flexible and customizable timeline component for Vue 3 applications. Display a vertical timeline of events with customizable styles, alignments, and content. For both light and dark themes.
 
-![dark-light-mode](./assets/light-dark-mode.png)
+![dark-light-mode](https://raw.githubusercontent.com/ir3ne/v-tmline/edc69d434e40ed269690d530bc5f67e48010b4ef/assets/dark-light-mode.png)
 
 ## Installation
 
