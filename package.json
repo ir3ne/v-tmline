@@ -16,10 +16,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ir3ne/v-timeline.git"
+		"url": "https://github.com/ir3ne/v-tmline.git"
 	},
 	"bugs": {
-		"url": "https://github.com/ir3ne/v-timeline/issues"
+		"url": "https://github.com/ir3ne/v-tmline.gitissues"
 	},
 	"author": "ir3ne <irene.tomaini@gmail.com>",
 	"license": "MIT",
