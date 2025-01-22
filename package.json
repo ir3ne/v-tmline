@@ -1,7 +1,7 @@
 {
 	"name": "v-tmline",
 	"private": false,
-	"version": "1.1.4",
+	"version": "1.1.5",
 	"type": "module",
 	"description": "A timeline component for Vue 3. It provides a simple and easy-to-use interface for creating custom timelines for light or dark themes.",
 	"keywords": [
