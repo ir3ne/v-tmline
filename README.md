@@ -21,6 +21,8 @@
 - Left and right alignment
 - Support for light and dark mode
 
+![dark-light-mode](https://raw.githubusercontent.com/ir3ne/v-tmline/edc69d434e40ed269690d530bc5f67e48010b4ef/assets/dark-light-mode.png)
+
 ## Installation
 
 ```bash

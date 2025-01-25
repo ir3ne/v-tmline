@@ -58,3 +58,59 @@
     "vue-tsc": "^2.1.10"
   }
 }
+=======
+	"name": "v-tmline",
+	"version": "1.1.5",
+	"type": "module",
+	"description": "A timeline component for Vue 3. It provides a simple and easy-to-use interface for creating custom timelines for light or dark themes.",
+	"keywords": [
+		"vue",
+		"vue3",
+		"timeline",
+		"component",
+		"v-timeline",
+		"v-tmline",
+		"v-timeline-vue",
+		"vue-timeline"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ir3ne/v-tmline.git"
+	},
+	"homepage": "https://github.com/ir3ne/v-tmline#readme",
+	"bugs": {
+		"url": "https://github.com/ir3ne/v-tmline/issues"
+	},
+	"author": "ir3ne <irene.tomaini@gmail.com>",
+	"license": "MIT",
+	"files": [
+		"dist"
+	],
+	"main": "./dist/v-timeline.umd.cjs",
+	"module": "./dist/v-timeline.js",
+	"types": "./dist/main.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/main.d.ts",
+			"require": "./dist/v-timeline.umd.cjs",
+			"import": "./dist/v-timeline.js"
+		},
+		"./style.css": "./dist/v-timeline.css"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vue-tsc --emitDeclarationOnly && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"vue": "^3.5.13"
+	},
+	"devDependencies": {
+		"@types/node": "^22.10.2",
+		"@vitejs/plugin-vue": "^5.2.1",
+		"@vue/tsconfig": "^0.7.0",
+		"typescript": "~5.6.2",
+		"vite": "^6.0.3",
+		"vue-tsc": "^2.1.10"
+	}
+}
