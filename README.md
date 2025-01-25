@@ -1,6 +1,15 @@
 <h1 align="center">
   Vue Timeline Component
 </h1>
+<p align="center">
+  <a href="https://github.com/ir3ne/v-tmline/">
+    <img src="https://img.shields.io/badge/release-v1.1.6-bada55%20
+	">
+  </a>
+  <a href="https://www.npmjs.com/package/v-tmline">
+    <img src="https://img.shields.io/badge/unpacked_size-14.7_kB-bada55%20">
+  </a>
+<p>
 
 <p align="center">
  A flexible and customizable timeline component for Vue 3 applications.<br> Display a vertical timeline of events with customizable styles, alignments, and content. <br>For both light and dark themes. 🌝 🌚
