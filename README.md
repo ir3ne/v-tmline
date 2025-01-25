@@ -20,7 +20,7 @@
 <p>
 
 <p align="center">
-  <img src="docs/public/logo.svg" alt="v-tmline-logo">
+  <img src="https://raw.githubusercontent.com/ir3ne/v-tmline/main/docs/public/logo.svg" alt="v-tmline-logo">
 </p>
 
 ## Features
