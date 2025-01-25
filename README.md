@@ -1,6 +1,25 @@
-# Vue Timeline Component
+<h1 align="center">
+  Vue Timeline Component
+</h1>
 
-A flexible and customizable timeline component for Vue 3 applications. Display a vertical timeline of events with customizable styles, alignments, and content. For both light and dark themes.
+<p align="center">
+ A flexible and customizable timeline component for Vue 3 applications.<br> Display a vertical timeline of events with customizable styles, alignments, and content. <br>For both light and dark themes. 🌝 🌚
+<p>
+
+<p align="center">
+  Feel free to report <a href="https://github.com/ir3ne/v-tmline/issues/new?template=Blank+issue">issues</a>, make PR's and start <a href="https://github.com/ir3ne/v-tmline/discussions/new/choose">discussions</a>.
+<p>
+
+<p align="center">
+  <img src="docs/public/logo.svg" alt="v-tmline-logo">
+</p>
+
+## Features
+
+- Customizable bullets style: filled or outlined
+- Custom colors
+- Left and right alignment
+- Support for light and dark mode
 
 ![dark-light-mode](https://raw.githubusercontent.com/ir3ne/v-tmline/edc69d434e40ed269690d530bc5f67e48010b4ef/assets/dark-light-mode.png)
 
@@ -19,9 +38,18 @@ Import and use the component in your Vue application:
 import { Timeline } from 'v-tmline'
 
 const timelineItems = [
-  { id: 1, label: 'First Event' },
-  { id: 2, label: 'Second Event' },
-  { id: 3, label: 'Third Event' }
+  {
+	id: 1,
+	label: 'First Point'
+  },
+  {
+	id: 2,
+	label: 'Second Point'
+  },
+  {
+	id: 3,
+	label: 'Third Point'
+  }
 ]
 </script>
 
