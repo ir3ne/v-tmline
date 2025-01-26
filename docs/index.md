@@ -1,15 +1,15 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-head: [['link', { rel: 'icon', href: '/v-tmline/favicon.svg' }]]
+head: [['link', { rel: 'icon', href: 'public/favicon.svg' }]]
 
 hero:
-  name: "Vue Timeline"
+  name: "V-Tmline"
   text: "Vue 3 component"
   tagline: "A simple versatile component for creating custom timelines for light and dark modes"
   image:
-    src: /logo.svg
-    alt: Vue Timeline
+    src: ./public/logo.svg
+    alt: V-Timeline
 
   actions:
     - theme: brand
@@ -21,13 +21,13 @@ hero:
 
 features:
   - title: Mode
-    icon: ↔
+    icon: 🔆
     details: Designer for both light and dark mode.
   - title: Color
-    icon: ⇄
+    icon: 🌈
     details: Default and custom color for bullets and tail.
   - title: Style
-    icon: ␣
+    icon: 🎨
     details: Default and custom style filled and outlined.
 
 ---
