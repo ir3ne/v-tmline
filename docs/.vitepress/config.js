@@ -7,9 +7,10 @@ export default defineConfig({
 //   base: '/v-tmline/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-	logo: 'public/favicon.svg',
+	logo: '/favicon.svg',
     nav: [
-      { text: 'Guide', link: '/guide/getting-started', activeMatch: '/guide/' }
+      { text: 'Guide', link: '/guide/getting-started', activeMatch: '/guide/' },
+	  { text: 'Examples', link: '/examples/basic-example', activeMatch: '/examples/' },
     ],
 
     sidebar: [

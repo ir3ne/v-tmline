@@ -1,14 +1,14 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-head: [['link', { rel: 'icon', href: 'public/favicon.svg' }]]
+head: [['link', { rel: 'icon', href: '/favicon.svg' }]]
 
 hero:
   name: "V-Tmline"
   text: "Vue 3 component"
   tagline: "A simple versatile component for creating custom timelines for light and dark modes"
   image:
-    src: ./public/logo.svg
+    src: ./logo.svg
     alt: V-Timeline
 
   actions:

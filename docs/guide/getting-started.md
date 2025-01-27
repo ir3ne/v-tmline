@@ -1,3 +1,5 @@
+<script setup> import BasicExample from '/examples/basic-example.vue' </script>
+
 # Getting Started
 
 `v-tmline` is a flexible and customizable timeline component for Vue 3 applications. Display a vertical timeline of events with customizable styles, alignments, and content. For both light and dark themes. 🌝 🌚

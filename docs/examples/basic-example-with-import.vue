@@ -1,4 +1,6 @@
 <script setup>
+import Timeline from 'v-tmline'
+
 const timelineItems = [
 	{
 		label: "Choose a recipe",
@@ -16,8 +18,9 @@ const timelineItems = [
 		label: "Enjoy the dish!",
 	},
 ]
+
 </script>
 
 <template>
-	<Timeline :items="timelineItems" mode="dark" />
+	<Timeline :items="timelineItems" />
 </template>

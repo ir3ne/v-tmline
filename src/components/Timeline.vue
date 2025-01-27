@@ -32,7 +32,7 @@
 <script setup>
 import { computed } from 'vue'
 import { useTimelineProps } from './composables/useTimelineProps'
-// import { useTimelineStyles } from './composables/useTimelineStyles'
+import { useTimelineStyles } from './composables/useTimelineStyles'
 
 const props = defineProps({
   items: {
