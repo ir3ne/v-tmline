@@ -100,21 +100,21 @@ const getItemKey = (item, index) => item.id || `timeline-item-${index}`
   margin: 0;
   padding-bottom: 20px;
   font-size: inherit;
-  line-height: in;
+  line-height: inherit;
   list-style: none;
 }
 
 .re-timeline-item-tail {
     position: absolute;
-    inset-block-start: 8px;
-    inset-inline-start: 3px;
-    height: calc(100% - 8px);
+    inset-block-start: 10px;
+    inset-inline-start: 4px;
+    height: calc(100% - 2px);
 }
 
 .re-timeline-item-head {
   position: absolute;
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   border: 2px solid;
   border-radius: 50%;
 }
@@ -144,7 +144,7 @@ const getItemKey = (item, index) => item.id || `timeline-item-${index}`
 
 .re-timeline.right .re-timeline-item-tail {
   inset-inline-start: unset;
-  inset-inline-end: 3px;
+  inset-inline-end: 4px;
 }
 
 .re-timeline.right .re-timeline-item-head {

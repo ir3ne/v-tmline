@@ -1,4 +1,4 @@
-<script setup> import BasicExample from '/examples/basic-example.vue' </script>
+<script setup> import BasicExample from '/examples/basic.vue' </script>
 
 # Getting Started
 
