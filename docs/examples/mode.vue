@@ -1,7 +1,6 @@
 <script setup>
-import { useTimelineDemo } from './timeline-demo';
-
-const { isDark } = useTimelineDemo()
+import { useData } from 'vitepress';
+const { isDark } = useData()
 
 const timelineItems = [
 	{

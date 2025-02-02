@@ -1,5 +1,5 @@
 <script setup>
-import Timeline from 'v-tmline'
+import Timeline from 'v-tmline';
 
 const timelineItems = [
 	{

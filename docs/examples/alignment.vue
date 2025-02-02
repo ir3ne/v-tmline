@@ -1,8 +1,4 @@
 <script setup>
-import { useTimelineDemo } from './timeline-demo';
-
-const { isDark } = useTimelineDemo()
-
 const timelineItems = [
 	{
 		label: "Choose a recipe",
@@ -25,6 +21,11 @@ const timelineItems = [
 <template>
 	<Timeline
 		:items="timelineItems"
-		:mode="isDark ? 'dark' : 'light'"
+		mode="dark"
+	/>
+	<Timeline
+		:items="timelineItems"
+		mode="dark"
+		align="right"
 	/>
 </template>

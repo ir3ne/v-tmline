@@ -10,7 +10,7 @@ export default defineConfig({
 	logo: '/favicon.svg',
     nav: [
       { text: 'Guide', link: '/guide/getting-started', activeMatch: '/guide/' },
-	  { text: 'Examples', link: '/examples/basic', activeMatch: '/examples/' },
+	//   { text: 'Examples', link: '/examples/basic', activeMatch: '/examples/' },
     ],
 
     sidebar: [
@@ -41,7 +41,7 @@ export default defineConfig({
           { text: 'Basic', link: '/examples/basic' },
           { text: 'Colored', link: '/examples/colored' },
           { text: 'Outlined', link: '/examples/outlined' },
-          { text: 'Combination', link: '/examples/combination' },
+          { text: 'Alignment', link: '/examples/alignment' },
           { text: 'Mode', link: '/examples/mode' },
         ]
       }
