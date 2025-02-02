@@ -137,12 +137,12 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
-.VPSidebarItem.level-1 a[href="/reference/events.html"] {
+.VPSidebarItem.level-1 a[href="https://ir3ne.github.io/v-tmline/reference/events.html"] {
   position: relative;
   color: black;
 }
 
-.VPSidebarItem.level-1 a[href="/reference/events.html"]::before {
+.VPSidebarItem.level-1 a[href="https://ir3ne.github.io/v-tmline/reference/events.html"]::before {
   position: absolute;
   background-color: aquamarine;
   content: "available soon";
