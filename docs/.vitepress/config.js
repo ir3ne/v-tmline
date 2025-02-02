@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "V-Tmline",
   description: "Documentation",
-//   base: '/v-tmline/',
+  base: '/v-tmline/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 	logo: '/favicon.svg',
