@@ -2,27 +2,47 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Vue Timeline",
-  description: "A simple versatile component for creating custom timelines for light and dark modes",
+  title: "V-Tmline",
+  description: "Documentation",
+//   base: '/v-tmline/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+	logo: '/favicon.svg',
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Guide', link: '/guide/getting-started', activeMatch: '/guide/' },
+	  { text: 'API Reference', link: '/reference/props', activeMatch: '/reference/' },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Introduction',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Getting Started', link: '/guide/getting-started' },
+        ]
+      },
+	  {
+        text: 'API Reference',
+        collapsed: false,
+        items: [
+          { text: 'Props', link: '/reference/props' },
+          { text: 'Events', link: '/reference/events' },
+        ]
+      },
+	  {
+        text: 'Examples',
+        collapsed: false,
+        items: [
+          { text: 'Basic', link: '/examples/basic' },
+          { text: 'Colored', link: '/examples/colored' },
+          { text: 'Outlined', link: '/examples/outlined' },
+          { text: 'Alignment', link: '/examples/alignment' },
+          { text: 'Mode', link: '/examples/mode' },
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/ir3ne/v-tmline' }
     ]
   }
 })
