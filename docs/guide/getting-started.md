@@ -24,3 +24,30 @@ yarn add v-tmline
 :::
 
 ## Usage
+
+Import and use the component in your Vue application:
+
+```vue
+<script setup>
+import { Timeline } from 'v-tmline'
+
+const timelineItems = [
+  {
+	id: 1,
+	label: 'First Point'
+  },
+  {
+	id: 2,
+	label: 'Second Point'
+  },
+  {
+	id: 3,
+	label: 'Third Point'
+  }
+]
+</script>
+
+<template>
+  <Timeline :items="timelineItems" />
+</template>
+```
