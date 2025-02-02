@@ -1,31 +1,17 @@
 <script setup>
-const timelineItems = [
-	{
-		label: "Choose a recipe",
-	},
-	{
-		label: "Make a list of the ingredients",
-	},
-	{
-		label: "Take the ingredients",
-	},
-	{
-		label: "Prepare the dish following the recipe’s instructions",
-	},
-	{
-		label: "Enjoy the dish!",
-	},
-]
+import { useTimelineDemo } from './timeline-demo';
+
+const { isDark, timelineItems } = useTimelineDemo()
 </script>
 
 <template>
 	<Timeline
 		:items="timelineItems"
-		mode="dark"
+		:mode="isDark ? 'dark' : 'light'"
 	/>
 	<Timeline
 		:items="timelineItems"
-		mode="dark"
 		align="right"
+		:mode="isDark ? 'dark' : 'light'"
 	/>
 </template>

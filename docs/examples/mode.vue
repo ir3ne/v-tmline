@@ -1,24 +1,7 @@
 <script setup>
-import { useData } from 'vitepress';
-const { isDark } = useData()
+import { useTimelineDemo } from './timeline-demo';
 
-const timelineItems = [
-	{
-		label: "Choose a recipe",
-	},
-	{
-		label: "Make a list of the ingredients",
-	},
-	{
-		label: "Take the ingredients",
-	},
-	{
-		label: "Prepare the dish following the recipe’s instructions",
-	},
-	{
-		label: "Enjoy the dish!",
-	},
-]
+const { isDark, timelineItems } = useTimelineDemo()
 </script>
 
 <template>

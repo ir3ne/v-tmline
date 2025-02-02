@@ -10,7 +10,7 @@ export default defineConfig({
 	logo: '/favicon.svg',
     nav: [
       { text: 'Guide', link: '/guide/getting-started', activeMatch: '/guide/' },
-	//   { text: 'Examples', link: '/examples/basic', activeMatch: '/examples/' },
+	  { text: 'API Reference', link: '/reference/props', activeMatch: '/reference/' },
     ],
 
     sidebar: [
@@ -20,20 +20,14 @@ export default defineConfig({
           { text: 'Getting Started', link: '/guide/getting-started' },
         ]
       },
-	//   {
-    //     text: 'API Reference',
-    //     collapsed: false,
-    //     items: [
-    //       { text: 'Props', link: '/reference/props' },
-    //       { text: 'Events', link: '/reference/events' },
-    //       { text: 'Slots', link: '/reference/slots' },
-    //       { text: 'Types', link: '/reference/types', items: [
-    //         { text: 'TimelineGroup', link: '/reference/types#timelinegroup' },
-    //         { text: 'TimelineItem', link: '/reference/types#timelineitem' },
-    //         { text: 'TimelineMarker', link: '/reference/types#timelinemarker' },
-    //       ] },
-    //     ]
-    //   },
+	  {
+        text: 'API Reference',
+        collapsed: false,
+        items: [
+          { text: 'Props', link: '/reference/props' },
+          { text: 'Events', link: '/reference/events' },
+        ]
+      },
 	  {
         text: 'Examples',
         collapsed: false,
