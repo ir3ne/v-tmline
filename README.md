@@ -23,6 +23,10 @@
   <img src="https://raw.githubusercontent.com/ir3ne/v-tmline/main/docs/public/logo.svg" alt="v-tmline-logo">
 </p>
 
+## Live demo
+
+[Official Documentation](https://ir3ne.github.io/v-tmline/)
+
 ## Features
 
 - Customizable bullets style: filled or outlined
@@ -212,7 +216,7 @@ const timelineItems = [
 
 ## License
 
-MIT License
+[MIT License](./LICENSE)
 
 ## Contributing
 
