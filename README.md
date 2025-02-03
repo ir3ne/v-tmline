@@ -3,7 +3,7 @@
 </h1>
 <p align="center">
   <a href="https://github.com/ir3ne/v-tmline/">
-    <img src="https://img.shields.io/badge/release-v1.1.6-bada55%20
+    <img src="https://img.shields.io/badge/release-v1.3.6-bada55%20
 	">
   </a>
   <a href="https://www.npmjs.com/package/v-tmline">
