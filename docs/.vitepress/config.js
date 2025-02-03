@@ -42,7 +42,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/ir3ne/v-tmline' }
+      { icon: 'github', link: 'https://github.com/ir3ne/v-tmline' },
+      { icon: 'npm', link: 'https://www.npmjs.com/package/v-tmline' }
     ]
   }
 })
