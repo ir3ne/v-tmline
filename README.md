@@ -3,11 +3,11 @@
 </h1>
 <p align="center">
   <a href="https://github.com/ir3ne/v-tmline/">
-    <img src="https://img.shields.io/badge/release-v1.3.7-bada55%20
+    <img src="https://img.shields.io/badge/release-v1.5.0-bada55%20
 	">
   </a>
   <a href="https://www.npmjs.com/package/v-tmline">
-    <img src="https://img.shields.io/badge/unpacked_size-14.7_kB-bada55%20">
+    <img src="https://img.shields.io/badge/unpacked_size-17.3_kB-bada55%20">
   </a>
 <p>
 
