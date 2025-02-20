@@ -1,3 +1,4 @@
+<!-- IMPORTANT: Component used only for documentation purposes -->
 <template>
   <ul :class="timelineClasses" class="re-timeline">
     <li
@@ -80,8 +81,6 @@ const emit = defineEmits(['item-click'])
 const { timelineClasses } = useTimelineProps(props)
 const { getHeadStyle, getTailStyle } = useTimelineStyles(props)
 
-const headStyle = computed(() => getHeadStyle.value)
-const tailStyle = computed(() => getTailStyle.value)
 
 const getItemKey = (item, index) => item.id || `timeline-item-${index}`
 </script>

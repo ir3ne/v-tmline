@@ -21,6 +21,16 @@
           name="item"
           :item="item"
           :index="idx"
+          v-if="!item.slotName"
+        >
+          {{ item.label }}
+        </slot>
+        <!-- Dynamic named slot -->
+        <slot
+          v-else
+          :name="item.slotName"
+          :item="item"
+          :index="idx"
         >
           {{ item.label }}
         </slot>
@@ -80,8 +90,6 @@ const emit = defineEmits(['item-click'])
 const { timelineClasses } = useTimelineProps(props)
 const { getHeadStyle, getTailStyle } = useTimelineStyles(props)
 
-const headStyle = computed(() => getHeadStyle.value)
-const tailStyle = computed(() => getTailStyle.value)
 
 const getItemKey = (item, index) => item.id || `timeline-item-${index}`
 </script>
