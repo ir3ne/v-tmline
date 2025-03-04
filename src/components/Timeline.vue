@@ -22,6 +22,16 @@
           name="item"
           :item="item"
           :index="idx"
+          v-if="!item.slotName"
+        >
+          {{ item.label }}
+        </slot>
+        <!-- Dynamic named slot -->
+        <slot
+          v-else
+          :name="item.slotName"
+          :item="item"
+          :index="idx"
         >
           {{ item.label }}
         </slot>
