@@ -153,3 +153,7 @@
   font-weight: 700;
   left: 3.5rem;
 }
+
+.vp-doc h3 {
+  margin-top: 0;
+}

@@ -9,10 +9,10 @@ export function useTimelineDemo() {
     { label: "Take the ingredients" },
     { label: "Prepare the dish following the recipe's instructions" },
     { label: "Enjoy the dish!" }
-  ]
+  ];
 
   return {
     isDark,
-    timelineItems
+    timelineItems,
   }
 }

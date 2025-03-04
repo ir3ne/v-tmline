@@ -47,7 +47,8 @@
 		"url": "https://github.com/ir3ne/v-timeline.git"
 	},
 	"scripts": {
-		"build": "vite build && vue-tsc --emitDeclarationOnly",
+		"build": "npm run clean && vite build && vue-tsc --emitDeclarationOnly",
+		"clean": "rm -rf dist",
 		"dev": "vite",
 		"docs:build": "vitepress build docs",
 		"docs:dev": "vitepress dev docs",
@@ -56,5 +57,5 @@
 	},
 	"type": "module",
 	"types": "./dist/main.d.ts",
-	"version": "1.4.7"
+	"version": "1.5.0"
 }

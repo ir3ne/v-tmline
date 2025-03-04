@@ -25,7 +25,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Props', link: '/reference/props' },
-          { text: 'Events', link: '/reference/events' },
+          { text: 'Slots', link: '/reference/slots' },
         ]
       },
 	  {
@@ -36,6 +36,7 @@ export default defineConfig({
           { text: 'Colored', link: '/examples/colored' },
           { text: 'Outlined', link: '/examples/outlined' },
           { text: 'Alignment', link: '/examples/alignment' },
+          { text: 'Slots', link: '/examples/slots' },
           { text: 'Mode', link: '/examples/mode' },
         ]
       }

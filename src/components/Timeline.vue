@@ -1,3 +1,4 @@
+<!-- IMPORTANT: Component used only for documentation purposes -->
 <template>
   <ul :class="timelineClasses" class="re-timeline">
     <li
@@ -19,6 +20,16 @@
       <div class="re-timeline-item-content">
         <slot
           name="item"
+          :item="item"
+          :index="idx"
+          v-if="!item.slotName"
+        >
+          {{ item.label }}
+        </slot>
+        <!-- Dynamic named slot -->
+        <slot
+          v-else
+          :name="item.slotName"
           :item="item"
           :index="idx"
         >
@@ -80,8 +91,6 @@ const emit = defineEmits(['item-click'])
 const { timelineClasses } = useTimelineProps(props)
 const { getHeadStyle, getTailStyle } = useTimelineStyles(props)
 
-const headStyle = computed(() => getHeadStyle.value)
-const tailStyle = computed(() => getTailStyle.value)
 
 const getItemKey = (item, index) => item.id || `timeline-item-${index}`
 </script>
