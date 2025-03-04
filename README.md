@@ -36,6 +36,7 @@
 - Customizable bullets style: filled or outlined
 - Custom colors
 - Left and right alignment
+- Support slots and named slots
 - Support for light and dark mode
 
 ![dark-light-mode](https://raw.githubusercontent.com/ir3ne/v-tmline/edc69d434e40ed269690d530bc5f67e48010b4ef/assets/dark-light-mode.png)
@@ -145,18 +146,39 @@ Each item in the `items` array should have the following structure:
 
 ### Custom Content using Slots
 
-You can customize the content of each timeline item using the `item` slot:
+You can customize the content of each timeline item using the slot feature: default or named slot.
+
+#### Default Slot
 
 ```vue
 <template>
   <Timeline :items="timelineItems">
-    <template #item="{ item, index }">
-      <div class="custom-item">
-        <h3>{{ item.label }}</h3>
-        <p>Additional content for item {{ index + 1 }}</p>
-      </div>
-    </template>
+    <!-- Default slot -->
+	<template #item="{ item }">
+		<div>Default: {{ item.label }}</div>
+	</template>
   </Timeline>
+</template>
+```
+#### Named Slot
+
+```vue
+<template>
+  <!-- Custom slot for work items -->
+	<template #work="{ item }">
+		<div class="work-item">
+			<h3>💫 {{ item.label }}</h3>
+			<p>{{ item.company }}</p>
+		</div>
+	</template>
+
+		<!-- Custom slot for education items -->
+	<template #education="{ item }">
+		<div class="education-item">
+			<h3>📚 {{ item.label }}</h3>
+			<p>{{ item.school }}</p>
+		</div>
+	</template>
 </template>
 ```
 

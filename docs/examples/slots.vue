@@ -31,23 +31,23 @@ const { isDark } = useTimelineDemo()
 	>
     	<!-- Default item slot -->
 		<template #item="{ item }">
-		<div>Default: {{ item.label }}</div>
+			<div>Default: {{ item.label }}</div>
 		</template>
 
 		<!-- Custom slot for work items -->
 		<template #work="{ item }">
-		<div class="work-item">
-			<h3>💫 {{ item.label }}</h3>
-			<p>{{ item.company }}</p>
-		</div>
+			<div class="work-item">
+				<h3>💫 {{ item.label }}</h3>
+				<p>{{ item.company }}</p>
+			</div>
 		</template>
 
 		<!-- Custom slot for education items -->
 		<template #education="{ item }">
-		<div class="education-item">
-			<h3>📚 {{ item.label }}</h3>
-			<p>{{ item.school }}</p>
-		</div>
+			<div class="education-item">
+				<h3>📚 {{ item.label }}</h3>
+				<p>{{ item.school }}</p>
+			</div>
 		</template>
   	</Timeline>
 </template>
