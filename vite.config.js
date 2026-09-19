@@ -6,7 +6,7 @@ export default defineConfig({
     plugins: [vue()],
     build: {
         lib: {
-            entry: resolve(__dirname, 'lib/main.ts'),
+            entry: resolve(import.meta.dirname, 'lib/main.ts'),
             name: 'VTimeline',
             // the proper extensions will be added
             fileName: 'v-timeline'
