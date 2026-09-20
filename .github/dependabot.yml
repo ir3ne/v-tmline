@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    ignore:
+      # No fix available upstream: vitepress@1.6.4 pins vite to ^5.4.14,
+      # which resolves to the vulnerable 5.4.21 (and its bundled esbuild).
+      # Remove once vitepress bumps its vite dependency past the fixed version.
+      - dependency-name: "vite"
+      - dependency-name: "esbuild"
+      - dependency-name: "launch-editor"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
