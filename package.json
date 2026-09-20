@@ -4,7 +4,7 @@
 		"url": "https://github.com/ir3ne/v-timeline/issues"
 	},
 	"dependencies": {
-		"vue": "^3.5.13"
+		"vue": "^3.5.43"
 	},
 	"description": "A timeline component for Vue 3. It provides a simple and easy-to-use interface for creating custom timelines for light or dark themes.",
 	"devDependencies": {
@@ -13,7 +13,7 @@
 		"@vue/tsconfig": "^0.9.1",
 		"typescript": "^5.9.3",
 		"vite": "^8.3.0",
-		"vitepress": "^1.6.1",
+		"vitepress": "^1.6.4",
 		"vue-tsc": "^3.3.11"
 	},
 	"exports": {
